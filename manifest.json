@@ -1,0 +1,11 @@
+{
+  "name": "My First Extension",
+  "version": "0.1",
+  "description": "The first extension that I made.",
+  "content_scripts": [
+    {
+      "matches": ["http://www.estiah.com/*"],
+      "js": ["jquery.js", "myscript.js"]
+    }
+  ]  
+}
