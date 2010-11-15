@@ -5,6 +5,6 @@ $(".item").each( function() {
 	if (!name)
 		return; 
 	var url = "http://progenitor-softworks.com/ew/index.php?title=" + name.replace(" ", "_"); 
-	var link = '<a href="' + url + '">[wiki]</a>';
+	var link = '<a href="' + url + '" class="lhp">[wiki]</a>';
 	item.children(".functions").append(link); 
 }); 
