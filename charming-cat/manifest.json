@@ -1,6 +1,6 @@
 {
   "name": "Charming Cat",
-  "version": "0.1",
+  "version": "0.1.2",
   "description": "Add wiki link to Estiah item",
   "content_scripts": [
     {
